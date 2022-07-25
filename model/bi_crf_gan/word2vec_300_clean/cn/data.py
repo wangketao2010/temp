@@ -71,7 +71,7 @@ def read_dictionary():
     :param vocab_path:
     :return:
     """
-    vocab_path = os.path.join("../../../../Data", "word2id.pkl")
+    vocab_path = os.path.join("/kaggle/working/temp/Data", "word2id.pkl")
     with open(vocab_path, 'rb') as fr:
         word2id = pickle.load(fr)
     print('vocab_size:', len(word2id))
