@@ -40,8 +40,8 @@ params = {
     'vector': 'bert_vec.npz'                                                    # 貌似没用
 }
 model_path = './model/'
-bert_config = modeling.BertConfig.from_json_file(os.path.join(os.path.abspath('/kaggle/working/temp/files_cn'), 'bert_config.json'))
-vocab_file = os.path.join(os.path.abspath('/kaggle/working/temp/files_cn'), 'vocab.txt')
+bert_config = modeling.BertConfig.from_json_file(os.path.join(os.path.abspath('/kaggle/input/chinese-bert/'), 'bert_config.json'))
+vocab_file = os.path.join(os.path.abspath('/kaggle/input/chinese-bert/'), 'vocab.txt')
 
 # parser = argparse.ArgumentParser(description='BiLSTM-CRF for Chinese NER task')
 # parser.add_argument('--mode', type=str, default='train', help='train/test')
