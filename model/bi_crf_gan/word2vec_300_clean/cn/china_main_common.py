@@ -1,7 +1,7 @@
 import os, time, sys, argparse
 from bert_base.bert import modeling
 
-bert_path = os.path.abspath('../../../../files_cn')  # '/home/ywd/tf_model/pre_training_model/chinese_L-12_H-768_A-12/'
+bert_path = os.path.abspath('/kaggle/input/chinese-bert/')  # '/home/ywd/tf_model/pre_training_model/chinese_L-12_H-768_A-12/'
 init_checkpoint = os.path.join(bert_path, 'bert_model.ckpt')
 #################################
 
