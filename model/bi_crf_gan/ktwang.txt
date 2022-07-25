@@ -1,0 +1,7 @@
+1、china_medical_char_data_cleaned/makefile.sh
+2、
+    bert_hcar_vector.py
+    china_main.py
+    china_main_base.py
+    main.py
+    main_base.py
